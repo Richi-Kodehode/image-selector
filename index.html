@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="selcontainer">
+      <select name="selector" id="selone">
+        <option value="please select">--Please Select--</option>
+        <option value="images/picture1.jpg" data-image="images/picture1.jpg">
+          Picture 1
+        </option>
+        <option value="images/picture2.jpg" data-image="images/picture2.jpg">
+          Picture 2
+        </option>
+        <option value="images/picture3.jpg" data-image="images/Picture3.jpg">
+          Picture 3
+        </option>
+        <optgroup label="Big Pictures"></optgroup>
+        <option
+          value="images/bigpicture1.jpg"
+          data-image="images/bigpicture1.jpg"
+        >
+          Big Picture 1
+        </option>
+
+        <option
+          value="images/bigpicture1.jpg"
+          data-image="images/bigpicture2.jpg"
+        >
+          Big Picture 2
+        </option>
+
+        <option
+          value="images/bigpicture1.jpg"
+          data-image="images/bigpicture3.jpg"
+        >
+          Big Picture 3
+        </option>
+      </select>
+    </div>
+    <div id="imagebox">
+      <img
+        id="selectedImage"
+        src=""
+        alt="Selected Image"
+        style="display: none"
+      />
+    </div>
+  </body>
+</html>
